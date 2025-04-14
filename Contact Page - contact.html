@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Kingston's Business</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="images/logo.png" alt="Kingston's Business Logo">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Reach out to our team with any questions or feedback.</p>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-info-grid">
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Visit Us</h3>
+                    <p>JJY Community, Gardnesville Township</p>
+                    <p>Monrovia, Liberia</p>
+                    <a href="#map-section" class="btn btn-small">View Map</a>
+                </div>
+                
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>Phone: +231 777 344 868</p>
+                    <p>Whatsapp: +231 777 344 868</p>
+                    <a href="tel:+231777344868" class="btn btn-small">Call Now</a>
+                </div>
+                
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>info@kingstonsbusiness.com</p>
+                    <p>support@kingstonsbusiness.com</p>
+                    <a href="mailto:info@kingstonsbusiness.com" class="btn btn-small">Send Email</a>
+                </div>
+                
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Business Hours</h3>
+                    <p>Monday - Saturday: 8:00 AM - 8:00 PM</p>
+                    <p>Sunday: 10:00 AM - 4:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="checkbox-container">
+                                <input type="checkbox" id="data-consent" name="data-consent" required>
+                                <label for="data-consent">I consent to having this website store my submitted information for contact purposes.</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="form-message"></div>
+                </div>
+                
+                <div class="contact-image">
+                    <img src="images/contact-image.jpg" alt="Contact Kingston's Business">
+                    <div class="social-media-contact">
+                        <h3>Connect With Us</h3>
+                        <p>Follow us on social media for updates, promotions, and more!</p>
+                        <div class="social-icons-large">
+                            <a href="#" class="social-icon facebook">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="#" class="social-icon instagram">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="#" class="social-icon twitter">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map-section" class="map-section">
+        <div class="container">
+            <h2 class="section-title">Our Location</h2>
+            <div class="map-container">
+                <!-- Placeholder for a map API would go here -->
+                <div class="map-placeholder">
+                    <img src="images/map-placeholder.jpg" alt="Map of Kingston's Business Location">
+                    <div class="map-overlay">
+                        <p>Interactive map would be integrated here with a mapping API when deployed.</p>
+                        <a href="https://maps.google.com" target="_blank" class="btn btn-primary">View on Google Maps</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What are your business hours?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We are open Monday through Saturday from 8:00 AM to 8:00 PM, and on Sundays from 10:00 AM to 4:00 PM.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer product delivery?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer same-day delivery for orders placed before 2:00 PM within Gardnesville Township. For areas outside our immediate vicinity, delivery may take 1-2 business days.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How can I check the status of my repair?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can check your repair status by calling our customer service line at +231 777 344 868 or by visiting our store with your repair receipt. We also send SMS updates for major repair milestones.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you accept returns or exchanges?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we accept returns and exchanges within 14 days of purchase for most products, provided they are in their original condition with packaging and receipt. Some electronics and perishable items may have different return policies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Stay updated with our latest products, services, and promotions</p>
+                <form id="newsletter-form" class="newsletter-form">
+                    <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <div id="newsletter-message"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section class="feedback-section">
+        <div class="container">
+            <div class="feedback-container">
+                <h2>We Value Your Feedback</h2>
+                <p>Your opinions help us improve our products and services. Let us know how we're doing!</p>
+                <a href="#" class="btn btn-secondary feedback-btn" id="feedback-trigger">Share Your Feedback</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback Modal -->
+    <div id="feedback-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Customer Feedback</h2>
+            <form id="feedback-form" class="feedback-form">
+                <div class="form-group">
+                    <label for="feedback-name">Name (Optional)</label>
+                    <input type="text" id="feedback-name" name="feedback-name">
+                </div>
+                <div class="form-group">
+                    <label for="feedback-email">Email (Optional)</label>
+                    <input type="email" id="feedback-email" name="feedback-email">
+                </div>
+                <div class="form-group">
+                    <label>Rate Your Experience</label>
+                    <div class="rating-container">
+                        <div class="rating">
+                            <input type="radio" id="star5" name="rating" value="5">
+                            <label for="star5"><i class="fas fa-star"></i></label>
+                            <input type="radio" id="star4" name="rating" value="4">
+                            <label for="star4"><i class="fas fa-star"></i></label>
+                            <input type="radio" id="star3" name="rating" value="3">
+                            <label for="star3"><i class="fas fa-star"></i></label>
+                            <input type="radio" id="star2" name="rating" value="2">
+                            <label for="star2"><i class="fas fa-star"></i></label>
+                            <input type="radio" id="star1" name="rating" value="1">
+                            <label for="star1"><i class="fas fa-star"></i></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="feedback-category">Feedback Category</label>
+                    <select id="feedback-category" name="feedback-category">
+                        <option value="">Select a Category</option>
+                        <option value="product">Product Quality</option>
+                        <option value="service">Customer Service</option>
+                        <option value="store">Store Experience</option>
+                        <option value="website">Website Experience</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="feedback-comments">Comments</label>
+                    <textarea id="feedback-comments" name="feedback-comments" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Feedback</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Kingston's Business Logo">
+                    <p>Your trusted shopping destination in Gardnesville Township</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> JJY Community, Gardnesville Township</p>
+                    <p><i class="fas fa-phone"></i> +231 777 344 868</p>
+                    <p><i class="fas fa-envelope"></i> info@kingstonsbusiness.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Kingston's Business. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/data-collection.js"></script>
+</body>
+</html>
